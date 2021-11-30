@@ -54,4 +54,4 @@ keycloak-client:
   realm-url: https://steelk.onaemo.com/auth/SteelApplication
 
 custom:
-  message: Hello, api-dev! Cloud Bus Test!!
+  message: Hello, api-dev!
