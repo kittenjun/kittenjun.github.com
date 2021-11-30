@@ -1,4 +1,18 @@
+server:
+  port: 30010
 spring:
+  application:
+    name: microtest
+  jmx:
+    default-domain: microtest
+  security:
+    user:
+      name: onaemo
+      password: tatteam@798184
+      roles: ADMIN
+  devtools:
+    livereload:
+      enabled: false
   rabbitmq:
     micromq:
       virtual-host: /micro_vhost
